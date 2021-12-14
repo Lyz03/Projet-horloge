@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 #clock {
     width: 500px;
     height: 500px;
@@ -10,23 +14,23 @@
 #h {
     width: 150px;
     background-color: gray;
-    height: 15px;
-    transform-origin: 130px 15px;
-    transform: translate(120px, 250px) rotate(90deg);
+    height: 16px;
+    transform-origin: 130px 8px;
+    transform: translate(130px, 250px) rotate(90deg);
 }
 
 #min {
     width: 180px;
     background-color: gray;
     height: 10px;
-    transform-origin: 160px 10px;
+    transform-origin: 160px 5px;
     transform: translate(90px, 250px) rotate(90deg);
 }
 
 #sec {
     width: 200px;
     background-color: gray;
-    height: 5px;
-    transform-origin: bottom right;
-    transform: translate(50px, 250px) rotate(90deg);
+    height: 6px;
+    transform-origin: 180px 3px;
+    transform: translate(70px, 250px) rotate(90deg);
 }
