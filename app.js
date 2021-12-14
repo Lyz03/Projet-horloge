@@ -3,7 +3,4 @@ let myClock = new Clock(document.getElementById('sec'), document.getElementById(
 
 myClock.showTime();
 
-let test = new Date
-console.log(test.getHours())
-
 

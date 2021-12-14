@@ -9,6 +9,7 @@ body {
     border-radius: 500px;
     background-image: url("/clockBackground.svg");
     background-size: cover;
+    margin: auto;
 }
 
 #h {
@@ -16,7 +17,7 @@ body {
     background-color: gray;
     height: 16px;
     transform-origin: 130px 8px;
-    transform: translate(130px, 250px) rotate(90deg);
+    transform: translate(120px, 250px) rotate(90deg);
 }
 
 #min {
@@ -24,13 +25,13 @@ body {
     background-color: gray;
     height: 10px;
     transform-origin: 160px 5px;
-    transform: translate(90px, 250px) rotate(90deg);
+    transform: translate(90px, 240px) rotate(90deg);
 }
 
 #sec {
     width: 200px;
-    background-color: gray;
+    background-color: #fb8c8a;
     height: 6px;
     transform-origin: 180px 3px;
-    transform: translate(70px, 250px) rotate(90deg);
+    transform: translate(70px, 240px) rotate(90deg);
 }
